@@ -16,7 +16,7 @@ Whenever a withdrawal is requested, an event is triggered, so the owner can depo
 
 Every initialization has at least these arguments:
 ```
-testinvoke 0x862c3b0d86e8dba5abfb5bd0517a90e1eecef1e1 init_time_contract ['uid','receiver','principal',value_in_gas,from_timestamp,to_timestamp,consume_type]
+testinvoke 0x862c3b0d86e8dba5abfb5bd0517a90e1eecef1e1 init_time_contract ['uid','principal','receiver',value_in_gas,from_timestamp,to_timestamp,consume_type]
 ```
 
 You can create a TimeContract, which needs to be filled up front like this:
